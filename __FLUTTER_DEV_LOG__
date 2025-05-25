@@ -1,0 +1,97 @@
+
+Launching lib\main.dart on Infinix X697 in debug mode...
+Running Gradle task 'assembleDebug'...                             18.9s
+✓  Built build\app\outputs\flutter-apk\app-debug.apk.
+Installing build\app\outputs\flutter-apk\app-debug.apk...          13.0s
+Syncing files to device Infinix X697...                            121ms
+
+Flutter run key commands.
+r Hot reload. 🔥🔥🔥
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+A Dart VM Service on Infinix X697 is available at: http://127.0.0.1:59952/bfO_mbmIQjc=/
+The Flutter DevTools debugger and profiler on Infinix X697 is available at: http://127.0.0.1:9101?uri=http://127.0.0.1:59952/bfO_mbmIQjc=/
+E/ion     (27988): ioctl c0044901 failed with code -1: Invalid argument
+
+Performing hot reload...                                        
+Reloaded 1 of 854 libraries in 873ms (compile: 15 ms, reload: 253 ms, reassemble: 265 ms).
+
+Performing hot reload...                                        
+Reloaded 1 of 854 libraries in 818ms (compile: 23 ms, reload: 371 ms, reassemble: 248 ms).
+
+Performing hot reload...                                        
+Reloaded 1 of 854 libraries in 808ms (compile: 30 ms, reload: 418 ms, reassemble: 200 ms).
+
+Performing hot reload...                                        
+Reloaded 1 of 854 libraries in 777ms (compile: 48 ms, reload: 357 ms, reassemble: 184 ms).
+
+Performing hot reload...                                        
+Reloaded 1 of 854 libraries in 753ms (compile: 13 ms, reload: 411 ms, reassemble: 198 ms).
+
+Performing hot reload...                                        
+Reloaded 1 of 854 libraries in 919ms (compile: 21 ms, reload: 437 ms, reassemble: 279 ms).
+
+Performing hot reload...                                        
+Reloaded 1 of 854 libraries in 875ms (compile: 32 ms, reload: 437 ms, reassemble: 227 ms).
+
+Performing hot reload...                                        
+Reloaded 1 of 854 libraries in 748ms (compile: 12 ms, reload: 374 ms, reassemble: 223 ms).
+
+Performing hot reload...                                        
+Reloaded 1 of 854 libraries in 890ms (compile: 20 ms, reload: 467 ms, reassemble: 236 ms).
+
+Performing hot reload...                                        
+Reloaded 1 of 854 libraries in 658ms (compile: 16 ms, reload: 288 ms, reassemble: 216 ms).
+
+Performing hot reload...                                        
+Reloaded 1 of 854 libraries in 803ms (compile: 34 ms, reload: 373 ms, reassemble: 221 ms).
+
+Performing hot reload...                                        
+Reloaded 1 of 854 libraries in 904ms (compile: 23 ms, reload: 464 ms, reassemble: 243 ms).
+
+Performing hot reload...                                        
+Reloaded 1 of 854 libraries in 754ms (compile: 25 ms, reload: 334 ms, reassemble: 231 ms).
+
+Performing hot reload...                                        
+Reloaded 1 of 854 libraries in 854ms (compile: 24 ms, reload: 450 ms, reassemble: 227 ms).
+
+Performing hot reload...                                        
+Reloaded 1 of 854 libraries in 819ms (compile: 17 ms, reload: 409 ms, reassemble: 257 ms).
+
+Performing hot reload...                                        
+Reloaded 1 of 854 libraries in 820ms (compile: 30 ms, reload: 408 ms, reassemble: 221 ms).
+
+Performing hot reload...                                        
+Reloaded 1 of 854 libraries in 725ms (compile: 26 ms, reload: 317 ms, reassemble: 212 ms).
+
+Performing hot reload...                                        
+Reloaded 1 of 854 libraries in 725ms (compile: 26 ms, reload: 298 ms, reassemble: 210 ms).
+
+Performing hot reload...                                        
+Reloaded 1 of 854 libraries in 918ms (compile: 24 ms, reload: 351 ms, reassemble: 352 ms).
+
+Performing hot reload...                                        
+Reloaded 2 of 854 libraries in 770ms (compile: 23 ms, reload: 338 ms, reassemble: 258 ms).
+
+Performing hot reload...                                        
+D/ViewRootImpl(27988): setSurfaceViewCreated, created:false
+V/PhoneWindow(27988): DecorView setVisiblity: visibility = 4, Parent = android.view.ViewRootImpl@a8a730e, this = DecorView@6d5712f[MainActivity]
+Reloaded 2 of 854 libraries in 1,864ms (compile: 57 ms, reload: 783 ms, reassemble: 825 ms).
+W/m.example.meal(27988): Reducing the number of considered missed Gc histogram windows from 152 to 100
+V/PhoneWindow(27988): DecorView setVisiblity: visibility = 0, Parent = android.view.ViewRootImpl@a8a730e, this = DecorView@6d5712f[MainActivity]
+V/PhoneWindow(27988): DecorView setVisiblity: visibility = 0, Parent = android.view.ViewRootImpl@a8a730e, this = DecorView@6d5712f[MainActivity]
+D/ViewRootImpl(27988): setSurfaceViewCreated, created:true
+
+Performing hot reload...                                        
+Reloaded 1 of 854 libraries in 1,014ms (compile: 15 ms, reload: 592 ms, reassemble: 263 ms).
+
+Performing hot reload...                                        
+Try again after fixing the above error(s).
+lib/widgets/category_grid_item.dart:11:25: Error: Final field 'onSelectCategory' is not initialized.
+Try to initialize the field in the declaration or in every constructor.
+  final void Function() onSelectCategory;
+                        ^^^^^^^^^^^^^^^^
